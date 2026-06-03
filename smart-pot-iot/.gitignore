@@ -1,0 +1,19 @@
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Arduino build artifacts
+build/
+*.hex
+*.elf
+
+# PHP / local config overrides
+web/config.local.php
+
+# Logs
+*.log
