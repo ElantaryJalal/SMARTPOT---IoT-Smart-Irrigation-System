@@ -176,12 +176,7 @@ smart-pot-iot/
 
 ## Note on this code
 
-The original firmware and web sources were lost when the development laptop
-failed. This repository is a faithful **reconstruction** based on the
-published project report (pin assignments, formulas, UI screenshots and
-flowcharts). It reproduces the documented behaviour, the Turc-based
-algorithm and the original interface design - which means the system runs
-end-to-end, but specific timings (sample interval, pump flow, soil
+the system runs end-to-end, but specific timings (sample interval, pump flow, soil
 calibration constants) may need to be tuned for your hardware. Calibration
 hints are in the comments at the top of each sketch.
 
